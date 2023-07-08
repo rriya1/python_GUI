@@ -1,0 +1,51 @@
+body
+    {
+        background-color:#f2f0eb;
+        font-family: 'Montserrat', sans-serif;
+    }
+.headtitle
+{
+    text-align: center;
+    font-size: 48px;
+    color:#00754a;
+    font-weight: bold;
+}
+
+.textcustom
+{
+    color: #6f4c13;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    height: 112px;
+    width: 912px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 24px;
+    margin: 50px auto 0 auto;
+    background-color: #ede2c6;
+    /* box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18); */
+}
+
+
+/*these lines are used to make the dropdown go in equal lnegth, before they were appearing only one alphabet side*/ 
+.Select-control {
+    width: 256px;
+    height: 48px;
+}
+
+.Select--single>.Select-control .Select-value,
+.Select-placeholder {
+    line-height: 48px;
+}
+
+.Select--multi .Select-value-label {
+    line-height: 32px;
+}
+
+.rangepicker
+{
+    background-color: #00754a;
+}
